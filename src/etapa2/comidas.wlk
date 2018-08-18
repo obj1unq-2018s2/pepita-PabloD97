@@ -61,7 +61,7 @@ object canelones {
 	
 	
 	method energiaPorGramo(){
-		return canelon
+		return canelon 
 	}
 }
 

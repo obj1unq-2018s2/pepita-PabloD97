@@ -26,7 +26,7 @@ object pepita {
 		self.volar(5)		
 	}
 	
-	method haceLoQueQuieras() { 
+	method haceLoQueQuieras() {   
 		if ( self.estaDebil() ) {
 			self.comer(alpiste, 20)
 		} 
