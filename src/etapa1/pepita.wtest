@@ -1,0 +1,16 @@
+import pepita.*
+
+// auto-generated at 27/08/2018 19:10:31
+
+describe "pepita" {
+	test "energia arranca en 0" {
+		assert.equals(0, pepita.energia()) // assert.equals es para testear que nos de igual
+	
+	}
+	
+	test "al comer sube su energia" {
+		pepita.comer(10)
+		assert.equals(40, pepita.energia() )
+		
+	}
+}
